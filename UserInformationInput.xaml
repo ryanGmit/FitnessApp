@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.UserInformationInput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+        <!-- Start of first text block-->
+        <TextBlock x:Name="DescriptionTextBlock" HorizontalAlignment="Left" Margin="65,55,0,0" Text="Here you can save a username and load it up again later for use" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- End of first text block-->
+
+        <!-- Input users name text box-->
+        <TextBox x:Name="InputUserName" HorizontalAlignment="Left" Margin="53,123,0,0" Text=" " VerticalAlignment="Top" Width="185" TextChanged="InputUserName_TextChanged"/>
+
+        <!-- Will store whatever is inputed into the text box above[Button]-->
+        <Button Content="Save User Name" HorizontalAlignment="Left" Margin="60,183,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFBFBFBF"/>
+
+        <!-- Users name is read into here from the text box above [TEXT BLOCK]-->
+        <TextBlock x:Name="ReadToTextBlock" HorizontalAlignment="Left" Margin="65,346,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+
+
+        <Button Content="Load previous user name" HorizontalAlignment="Left" Margin="60,407,0,0" VerticalAlignment="Top" Click="Button_Click_1" Background="#FFBFBFBF"/>
+        
+        
+        <Button x:Name="ContinueToChooseWorkout" Content="Continue to choose workout" HorizontalAlignment="Left" Margin="60,473,0,0" VerticalAlignment="Top" Click="ContinueToChooseWorkout_Click" Background="#FFBFBFBF"/>
+
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+
+        <!-- Start of first text block-->
+        <TextBlock x:Name="FirstTextBlock" HorizontalAlignment="Left" Margin="30,22,0,0" 
+         Text="Hi and welcome to fitness made simple.  The goal of this app is to help people who are new to fitness and want a way to organise workout plans while in the gym!"
+         TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="331"/>
+        <!-- End of first text block-->
+
+        <!-- Start of second text block-->
+        <TextBlock x:Name="SecondTextBlock" HorizontalAlignment="Left" Margin="30,127,0,0" Text="The app has been created with being user friendly.
+                   The app will allow a user to choose from a list of different workout goals  This includes: (Weight loss / Weight training / Endurance trianing " TextWrapping="Wrap" VerticalAlignment="Top" Width="357"/>
+        <!-- End of second text block-->
+
+        <!-- Start of third text block-->
+        <TextBlock x:Name="ThirdTextBlock" HorizontalAlignment="Left" Margin="30,272,0,0" Text="Press the 'continue' button below to begin creating a workoput plan that best suits you ! "
+                   TextWrapping="Wrap" VerticalAlignment="Top" Width="331" Height="86"/>
+        <!-- End of third text block-->
+
+        <!-- Continue button-->
+        <Button x:Name="ContinueButton" Content="Continue" HorizontalAlignment="Left" Margin="135,381,0,0" VerticalAlignment="Top" Height="37" Width="130" Click="ContinueButton_Click" Foreground="#000000" Background="#FFBFBFBF"/>
+
+        <!-- Help button-->
+        <Button x:Name="HelpButton" Content="User Help" HorizontalAlignment="Left" Margin="135,454,0,0" VerticalAlignment="Top" Click="HelpButton_Click" Width="130" Background="#FFBFBFBF"/>
+
+        <!-- Submit Feedback button-->
+        <Button x:Name="SubmitFeedback" Content="Submit feedback" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,513,0,0" Click="SubmitFeedback_Click" Background="#FFBFBFBF"/>
+    </Grid>
+</Page>

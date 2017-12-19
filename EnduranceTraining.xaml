@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.EnduranceTraining"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+        <!-- Description text block -->
+        <TextBlock x:Name="DescriptionTextBlock" HorizontalAlignment="Left" Margin="43,48,0,0" Text="You can choose to create your own weight training plan
+                   or use a premade plan that targets general points." TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <!-- create your own endurance training plan button option-->
+        <Button x:Name="CreateYourOwnEndruanceTrainingPlan" Content="Create your own" HorizontalAlignment="Left" Margin="43,145,0,0" VerticalAlignment="Top" Click="CreateYourOwnEndruanceTrainingPlan_Click" Background="#FFBFBFBF"/>
+
+        <!-- Use premade endurance training plan button option-->
+        <Button x:Name="UsePreMadeEndruanceTrainingPlan" Content="Premade Endurance Plan" HorizontalAlignment="Left" Margin="43,218,0,0" VerticalAlignment="Top" Click="UsePreMadeEndruanceTrainingPlan_Click" Background="#FFBFBFBF"/>
+
+        <!-- Return to choose training type button option-->
+        <Button x:Name="ReturnToTrainingTypeButton" Content="Return to choose training type" HorizontalAlignment="Left" Margin="53,514,0,0" VerticalAlignment="Top" Click="ReturnToTrainingTypeButton_Click" Width="322" Background="White"/>
+       
+    </Grid>
+</Page>

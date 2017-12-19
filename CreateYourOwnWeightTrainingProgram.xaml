@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.CreateYourOwnWeightTrainingProgram"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+        <!-- Start of first text block-->
+        <TextBlock x:Name="DescriptionTextBlock" HorizontalAlignment="Left" Margin="43,48,0,0" Text="When it comes to weight training it is important to have a variety of training that includes upper and lower body.  Please be careful when trying a new weight. Please use numbers that suits your own personal experience and what you are comfotable with.  This is your goal and journey do what suits you best !   
+ Please Input an exercise into each box below"
+                   TextWrapping="Wrap" VerticalAlignment="Top" Height="198" Width="369"/>
+        <!-- End of first text block-->
+
+        <!-- Start of first exercise functions-->
+        <!-- Input text box-->
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Margin="69,256,0,0" Text=" " VerticalAlignment="Top" Width="199" TextChanged="Input_TextChanged" />
+        <!-- Save future weightLossWorkouts button-->
+        <Button x:Name="SaveInput" Content="Save" HorizontalAlignment="Left" Margin="304,258,0,0" VerticalAlignment="Top" Click="SaveInput_Click" Background="#FFBFBFBF" Height="31" Width="56"/>
+        <!-- ReadTo block-->
+        <TextBlock x:Name="ReadTo" HorizontalAlignment="Left" Margin="35,460,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- Load  button-->
+        <Button x:Name="Load" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="363,456,0,0" Click="Load_Click" Background="#FFBFBFBF"/>
+        <!-- Check Box for first exercise-->
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="208,457,0,0" VerticalAlignment="Top" Width="99"/>
+      
+        <!-- End of first exercise functions-->
+
+        <!-- Start of second exercise functions-->
+        <!-- Input text box-->
+        <TextBox x:Name="Input2" HorizontalAlignment="Left" Margin="69,296,0,0" Text=" " VerticalAlignment="Top" Width="199" TextChanged="Input2_TextChanged"/>
+        <!-- Save future future workout no2 button-->
+        <Button x:Name="Save2" Content="Save" HorizontalAlignment="Left" Margin="304,299,0,0" VerticalAlignment="Top" Width="56" Click="Save2_Click" Background="#FFBFBFBF"/>
+        <!-- ReadTo2 block-->
+        <TextBlock x:Name="ReadTo2" HorizontalAlignment="Left" Margin="35,497,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- Load2  button-->
+        <Button x:Name="Load2" Content="Load" HorizontalAlignment="Left" Margin="363,495,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.531,0.637" Click="Load2_Click" Background="#FFBFBFBF"/>
+        <!-- Check Box for second exercise-->
+        <CheckBox x:Name="CheckBox2" Content="Completed" HorizontalAlignment="Left" Margin="208,490,0,0" VerticalAlignment="Top" Width="99"/>
+
+        <!-- End of second exercise functions-->
+
+        <!-- Start of third exercise functions-->
+        <!-- Input text box-->
+        <TextBox x:Name="Input3" HorizontalAlignment="Left" Margin="69,339,0,0" Text=" " VerticalAlignment="Top" Width="199" TextChanged="Input3_TextChanged"/>
+        <!-- Save future future workout no3 button-->
+        <Button x:Name="Save3" Content="Save" HorizontalAlignment="Left" Margin="304,346,0,0" VerticalAlignment="Top" Click="Save3_Click" Background="#FFBFBFBF" Width="56" Height="31"/>
+        <!-- ReadTo3 block-->
+        <TextBlock x:Name="ReadTo3" HorizontalAlignment="Left" Margin="35,538,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- Load3  button-->
+        <Button x:Name="Load3" Content="Load" HorizontalAlignment="Left" Margin="363,543,0,0" VerticalAlignment="Top" Click="Load3_Click" Background="#FFBFBFBF"/>
+        <!-- Check Box for third exercise-->
+        <CheckBox x:Name="CheckBox3" Content="Completed" HorizontalAlignment="Left" Margin="208,536,0,0" VerticalAlignment="Top"/>
+        <!-- End of third exercise functions-->
+
+        <!-- Start of fourth exercise functions-->
+        <!-- Input text box-->
+        <TextBox x:Name="Input4" HorizontalAlignment="Left" Margin="69,376,0,0" Text=" " VerticalAlignment="Top" Width="199" TextChanged="Input4_TextChanged"/>
+        <!-- Save future future workout no3 button-->
+        <Button x:Name="Save4" Content="Save" HorizontalAlignment="Left" Margin="304,389,0,0" VerticalAlignment="Top" Width="56" Click="Save4_Click" Background="#FFBFBFBF" Height="31"/>
+        <!-- ReadTo4 block-->
+        <TextBlock x:Name="ReadTo4" HorizontalAlignment="Left" Margin="35,588,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!-- Load4 button-->
+        <Button x:Name="Load4" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="363,594,0,0" Click="Load4_Click" Background="#FFBFBFBF"/>
+        <!-- Check Box for fourth exercise-->
+        <CheckBox x:Name="Checkbox4" Content="Completed" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,589,0,0"/>
+        <!-- End of fourth exercise functions-->
+
+    </Grid>
+</Page>

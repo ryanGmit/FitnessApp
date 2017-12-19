@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.ChooseTrainingType"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+        <TextBlock x:Name="FirstTextBlock" HorizontalAlignment="Left" Margin="90,93,0,0" Text="What type of training do you want to focus on ?" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="213"/>
+
+        <!-- Weight Loss button option-->
+        <Button x:Name="WeightLoss" Content="Weight Loss" HorizontalAlignment="Left" Margin="143,206,0,0" VerticalAlignment="Top" Click="WeightLoss_Click" Width="145" Background="#FFBFBFBF"/>
+
+        <!-- Weight Training button option-->
+        <Button x:Name="WeightTraining" Content="Weight Training" HorizontalAlignment="Left" Margin="143,283,0,0" VerticalAlignment="Top" Click="WeightTraining_Click" Width="145" Background="#FFBFBFBF"/>
+
+        <!-- Endurance Training  button option-->
+        <Button x:Name="EnduranceTraining" Content="Endurance Training" HorizontalAlignment="Left" Margin="143,352,0,0" VerticalAlignment="Top" Click="EnduranceTraining_Click" Width="145" Background="#FFBFBFBF"/>
+
+        <!-- Return to mainPage button option-->
+        <Button x:Name="ReturnToMainPage" Content="Return to Main Page" HorizontalAlignment="Left" Margin="53,514,0,0" VerticalAlignment="Top" Click="ReturnToMainPage_Click" Width="322" Background="White"/>
+
+
+    </Grid>
+</Page>

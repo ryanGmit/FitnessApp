@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="FinalWorkoutApp.AdvancedPremadeEnduranceTrainingPlan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalWorkoutApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFBF462">
+
+        <!-- Long range-->
+        <TextBlock HorizontalAlignment="Left" Margin="56,76,0,0" Text="Long range:
+                  30 km hill climb
+                  60 km road cycle " TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Height="114"/>
+
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="248,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="248,116,0,0" VerticalAlignment="Top"/>
+
+        <!-- To failure Section-->
+        <TextBlock HorizontalAlignment="Left" Margin="51,189,0,0" Text="To failure :
+                     jump rope
+                 pull ups
+                  squats
+                 
+                   planks
+                  
+                   sit ups" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="127"/>
+
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="247,202,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="246,227,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="247,250,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="246,275,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Completed" HorizontalAlignment="Left" Margin="246,300,0,0" VerticalAlignment="Top"/>
+
+        <!-- Description box-->
+        <TextBlock HorizontalAlignment="Left" Margin="41,422,0,0" Text="For people that have expereience with endurance I felt it was important to stick to training that is common knowledge but increase the volume that you can do." TextWrapping="Wrap" VerticalAlignment="Top" Height="108"/>
+
+        <!-- Return button-->
+        <Button x:Name="ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="46,536,0,0" VerticalAlignment="Top" Click="ReturnButton_Click" Height="38" Width="322" Background="White"/>
+
+    </Grid>
+</Page>
